@@ -1,0 +1,41 @@
+{
+  "channel_id": "mychannel",
+  "read_set": {
+    "groups": {
+      "Application": {
+        "groups": {
+          "Org1MSP": {
+            "version": "1"
+          },
+          "Org2MSP": {
+            "version": "1"
+          }
+        },
+        "policies": {
+          "Admins": {},
+          "Readers": {},
+          "Writers": {}
+        },
+        "version": "1"
+      }
+    }
+  },
+  "write_set": {
+    "groups": {
+      "Application": {
+        "groups": {
+          "Org1MSP": {
+            "version": "1"
+          }
+        },
+        "mod_policy": "Admins",
+        "policies": {
+          "Admins": {},
+          "Readers": {},
+          "Writers": {}
+        },
+        "version": "2"
+      }
+    }
+  }
+}
