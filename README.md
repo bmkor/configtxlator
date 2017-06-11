@@ -274,7 +274,7 @@ Testing add/remove organisation peer on `configtxlator`
 2017-06-10 06:06:24.924 UTC [orderer/main] func1 -> DEBU e35 Closing Deliver stream
 ```
 
-5. Succeed in removing `Org2MSP` after the discussion with `@jyellick` in `chat.hyperledger.com`.
+5. Succeeded in removing `Org2MSP` after signing via `configtxlator` and submitting via `peer channel update` (bug fixed after discussing with `@jyellick` in `chat.hyperledger.com`)
 
 ```
 2017-06-11 02:15:50.264 UTC [policies] ProposePolicy -> DEBU e23 Proposed new policy Readers for Orderer
